@@ -4,7 +4,7 @@
 - name: "configure {{ component }} server"
   hosts: all
   become: yes
-  #vars_files:
-  #- "variables-{{ env }}.yml"
+  vars_files:
+  - "variables-{{ env }}.yml"
   roles:
   - "{{ component }}"
