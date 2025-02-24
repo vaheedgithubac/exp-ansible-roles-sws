@@ -1,0 +1,4 @@
+---
+# vars_files has high precedence than roles:default/main.yml and roles:vars/main.yml
+# variables for DEV environment
+BACKEND_HOST: localhost
