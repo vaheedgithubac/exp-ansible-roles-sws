@@ -1,4 +1,5 @@
 ---
 # vars_files has high precedence than roles:default/main.yml and roles:vars/main.yml
 # variables for DEV environment
-BACKEND_HOST: localhost
+# BACKEND_HOST: localhost
+BACKEND_HOST: internal-expense-dev-alb-internal-1491696606.ap-south-1.elb.amazonaws.com
